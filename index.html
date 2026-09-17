@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminar Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <table class="seminar-table">
+      <colgroup>
+        <col class="day-column">
+        <col class="time-column">
+        <col class="time-column">
+        <col class="topic-column">
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="3" scope="col">Day</th>
+          <th colspan="3" scope="colgroup">Seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2" scope="colgroup">Schedule</th>
+          <th rowspan="2" scope="col">Topic</th>
+        </tr>
+        <tr>
+          <th scope="col">Begin</th>
+          <th scope="col">End</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2" scope="rowgroup">Monday</th>
+          <td rowspan="2" class="begin-time">8:00 a.m.</td>
+          <td rowspan="2" class="end-time">5:00 p.m.</td>
+          <td>Introduction to XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Tuesday</th>
+          <td class="begin-time">8:00 a.m.</td>
+          <td class="end-time">11:00 a.m.</td>
+          <td>XPath</td>
+        </tr>
+        <tr>
+          <td class="begin-time">11:00 a.m.</td>
+          <td class="end-time">2:00 p.m.</td>
+          <td rowspan="2">XSL Transformations</td>
+        </tr>
+        <tr>
+          <td class="begin-time">2:00 p.m.</td>
+          <td class="end-time">5:00 p.m.</td>
+        </tr>
+        <tr>
+          <th scope="row">Wednesday</th>
+          <td class="begin-time">8:00 a.m.</td>
+          <td class="end-time">12:00 p.m.</td>
+          <td>XSL Formatting Objects</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
